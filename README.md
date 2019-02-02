@@ -11,7 +11,10 @@
 
 public class MyClass{
   public static void main(String args[]){
-    System.out.println("안녕하세요.");
+    System.out.println("소스코드 블럭지정 방법 ");
+    System.out.println("```java");
+    System.out.println("소스코드내용 ");
+    System.out.println("```");
   }
 }
 
@@ -19,7 +22,7 @@ public class MyClass{
 
 링크 작성하기
 
-[블로그 링크](https://shlee0882.tistory.com)
+[블로그 링크는 [블로그 제목]와 (블로그 url) 을 붙여서 만들수 있습니다.](https://shlee0882.tistory.com)
 
 인용구문 작성하기
 
@@ -46,10 +49,10 @@ public class MyClass{
   * 블루베리
     * 파란색
     * 시원하다.
-    * 여름과일
+    * 리스트는 *을 사용하여 만듭니다.
     
     
 강조 표현하기
 
-**조지아 맥스** ~~최애커피 카페인중독ㅠㅠ~~ 맛있어요!!!
+**강조표현은 별2개를 사용하여 표현합니다. 조지아 맥스** ~~최애커피 물결표시 2개로 표현합니다.~~ 맛있어요!!!
     
