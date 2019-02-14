@@ -4,6 +4,28 @@
 
 #### h4 
 
+```text
+// git 로컬 레파지토리 생성 이후 원격 레파지토리 push 방법
+git init
+git status
+git add .
+git status
+git commit -m "test commit"
+git remote add origin "your github remote repository url"
+git push origin master
+```
+
+```text
+// git 원격 레파지토리 clone 이후 수정사항 push 방법
+git clone "your github remote repository url"
+git status
+git add .
+git status
+git commit -m "test commit"
+git push
+```
+
+
 _이탤릭체는 언더바 사용_
 
 `#`는 숫자키 1 옆에 single quote로 특수문자 표시가 가능함
