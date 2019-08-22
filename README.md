@@ -28,6 +28,7 @@ git push
 1. 깃설치 먼저하고 cmd에서 git --version 으로 설치확인
 
 <최초 깃에 올릴때 > 
+
 	git init                                              // workspace에 .git 파일이 생김 (파일>옵션>보기> 숨김파일,폴더표시)
 	git status                                            //상태확인
 	git add . 	                                          // 빨간상태를 초록상태로 변경
@@ -37,6 +38,7 @@ git push
 	git push origin master		                            // 해당 레파지토리로 푸시
 	
 < 최초 올리고 수정시 >
+
 	git add .
 	git stuats
 	git commit -m "커밋메세지"
