@@ -24,7 +24,26 @@ git status
 git commit -m "test commit"
 git push
 ```
+---------------------- S : 위에꺼 보고 내가 이해한것--------------------------------
+1. 깃설치 먼저하고 cmd에서 git --version 으로 설치확인
 
+<최초 깃에 올릴때 > 
+	git init                                              // workspace에 .git 파일이 생김 (파일>옵션>보기> 숨김파일,폴더표시)
+	git status                                            //상태확인
+	git add . 	                                          // 빨간상태를 초록상태로 변경
+	git status 	                                          // 초록색상태로 변경된것을 확인
+	git commit -m "메세지"                                 // 커밋
+	git remote add origin "깃 원격(리모트) 레파지토리 주소" 	// 해당 주소로 add
+	git push origin master		                            // 해당 레파지토리로 푸시
+	
+< 최초 올리고 수정시 >
+	git add .
+	git stuats
+	git commit -m "커밋메세지"
+	git push origin master 
+	
+
+---------------------- S : 위에꺼 보고 내가 이해한것--------------------------------
 
 _이탤릭체는 언더바 사용_
 
